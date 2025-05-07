@@ -206,7 +206,7 @@ padding: 6px;
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>410</y>
+       <y>470</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -231,7 +231,7 @@ font: bold;
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>410</y>
+       <y>470</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -256,7 +256,7 @@ font: bold;
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>470</y>
+       <y>530</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -281,7 +281,7 @@ font: bold;
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>470</y>
+       <y>530</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -333,7 +333,7 @@ font: bold;
        <x>390</x>
        <y>140</y>
        <width>801</width>
-       <height>401</height>
+       <height>291</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -344,8 +344,8 @@ QHeaderView::section { height: 50px; }</string>
     <widget class="QPushButton" name="statistique">
      <property name="geometry">
       <rect>
-       <x>390</x>
-       <y>560</y>
+       <x>340</x>
+       <y>440</y>
        <width>251</width>
        <height>41</height>
       </rect>
@@ -369,8 +369,8 @@ font: bold;
     <widget class="QPushButton" name="pdf">
      <property name="geometry">
       <rect>
-       <x>660</x>
-       <y>560</y>
+       <x>600</x>
+       <y>440</y>
        <width>251</width>
        <height>41</height>
       </rect>
@@ -411,8 +411,8 @@ font: bold;
     <widget class="QPushButton" name="history">
      <property name="geometry">
       <rect>
-       <x>920</x>
-       <y>560</y>
+       <x>860</x>
+       <y>440</y>
        <width>271</width>
        <height>41</height>
       </rect>
@@ -517,28 +517,11 @@ padding: 6px;</string>
       </property>
      </item>
     </widget>
-    <widget class="QTextEdit" name="historique">
-     <property name="geometry">
-      <rect>
-       <x>390</x>
-       <y>660</y>
-       <width>811</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: black;
-background-color: #bd842d;
-border: 1px solid #5E9387;
-border-radius: 4px;
-padding: 6px;</string>
-     </property>
-    </widget>
     <widget class="QPushButton" name="clear_history">
      <property name="geometry">
       <rect>
-       <x>800</x>
-       <y>610</y>
+       <x>900</x>
+       <y>490</y>
        <width>271</width>
        <height>41</height>
       </rect>
@@ -667,11 +650,11 @@ font: bold;
 </string>
      </property>
     </widget>
-    <widget class="QPushButton" name="clear_history_2">
+    <widget class="QPushButton" name="checkSalary">
      <property name="geometry">
       <rect>
-       <x>490</x>
-       <y>610</y>
+       <x>620</x>
+       <y>490</y>
        <width>271</width>
        <height>41</height>
       </rect>
@@ -713,6 +696,122 @@ padding: 6px;
      </property>
      <property name="placeholderText">
       <string>Email:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="attribuerTache">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>490</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #b68a4d;
+border: none;
+color: white;
+border-radius: 5px;
+padding: 8px 12px;
+font-size: 18px;
+font: bold;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Attribuer tâche</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_2">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>660</y>
+       <width>621</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid #5E9387;
+QHeaderView::section { height: 50px; }</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_taches">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>540</y>
+       <width>76</width>
+       <height>26</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="date_2">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>540</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>taches :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="afficherAttributions">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>540</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #b68a4d;
+border: none;
+color: white;
+border-radius: 5px;
+padding: 8px 12px;
+font-size: 18px;
+font: bold;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Afficher Attributions</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="competences">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>410</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #bd842d;
+border: 1px solid #5E9387;
+border-radius: 4px;
+padding: 6px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>competences:</string>
      </property>
     </widget>
    </widget>

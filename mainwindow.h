@@ -3,10 +3,9 @@
 
 #include <QMainWindow>
 #include <QSqlQueryModel>
-
-namespace Ui {
-class MainWindow;
-}
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
@@ -23,9 +22,13 @@ private slots:
     void on_pushButton_modifier_clicked();
     void on_pushButton_rechercher_clicked();  // Recherche par ID
     void on_pushButton_trier_clicked();
+    void afficher_statistiques();
+    void afficherHistorique();
+    void attribuerTacheAuto();
+    void afficherAttributions();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::MainWindow *ui;  // Pointer to the UI class
 };
 
 #endif // MAINWINDOW_H

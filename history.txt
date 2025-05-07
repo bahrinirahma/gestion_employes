@@ -1,0 +1,4 @@
+Ajout de l'employé ID: 45243, Prénom: dfgdfsg, Nom: fdgsd, Poste: 474, Date: 2025-04-17
+Modification de l'employé ID: 1234567, Nouveau prénom: hfzehuhf, Nouveau nom: jndvdn, Poste: 5868555, Date: 2025-04-17
+Suppression de l'employé ID: 1234567, Date: 2025-04-17
+Ajout de l'employé ID: 987654, Prénom: rahma, Nom: bahrini, Poste: 123456, Date: 2025-04-23

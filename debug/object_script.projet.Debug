@@ -1,0 +1,10 @@
+debug/FenetreAcces.o
+debug/connection.o
+debug/employes.o
+debug/gestiontaches.o
+debug/main.o
+debug/mainwindow.o
+debug/tache.o
+debug/utilisateur.o
+debug/moc_fenetreacces.o
+debug/moc_mainwindow.o
